@@ -56,6 +56,9 @@ Average results on 8 different benchmarks.
 
 **TODO: Better results will be obtained after adopted `zoom_in` operation in evaluation, more results will be released soon...**
 
+## What's New?
+We added a more efficient DDP training strategy to train the network, with faster training speed.
+
 ## User Guidelines
 To use this codebase to train/val your own models, please follow the steps:
 
