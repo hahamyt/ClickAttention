@@ -1,4 +1,7 @@
 # ClickAttention: Click Region Similarity Guided Interactive Segmentation
+
+## <mark style="background: #FF5582A6;">More key components and codes will be released as soon as possible ...</mark>
+
 ## Introduction 
 The pipeline of the proposed algorithm.
 <p align="center">
@@ -93,4 +96,3 @@ TODO:
 
 ```
 
-## <mark style="background: #FF5582A6;">More key components and codes will be released soon...</mark>
