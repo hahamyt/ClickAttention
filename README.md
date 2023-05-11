@@ -51,7 +51,7 @@ Average results on 8 different benchmarks.
 </p>
 <br/>
 
-**TODO: Better results will be obtained after adopted `zoom_in` operation in evaluation, more results will be released later...**
+**TODO: Better results will be obtained after adopted `zoom_in` operation in evaluation, more results will be released soon...**
 
 ## User Guidelines
 To use this codebase to train/val your own models, please follow the steps:
