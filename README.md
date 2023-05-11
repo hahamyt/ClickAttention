@@ -30,8 +30,7 @@ Our scripts automatically detect the architecture of the loaded model, just spec
 
 ## Results
 
-The proposed algorithm achieved competitive performance when compared to the current state-of-the-art (SOTA).
-
+The proposed algorithm achieved competitive performance when compared to the current state-of-the-art (SOTA). 
 | method                | GrabCut | Berkeley | SBD    |        | DAVIS  | COCO_MVal |        | PascalVOC |        |
 |-------------------|---------|----------|--------|--------|--------|-----------|--------|-----------|--------|
 |                   | NOC 90  | NOC 90   | NOC 85 | NOC 90 | NOC 90 | NOC 85    | NOC 90 | NOC 85    | NOC 90 |
@@ -51,6 +50,8 @@ Average results on 8 different benchmarks.
   <img src="./assets/img/click_analysis.png" alt="drawing" width="50%"/>
 </p>
 <br/>
+
+**TODO: Better results will be obtained after adopted `zoom_in` operation in evaluation, more results will be released later...**
 
 ## User Guidelines
 To use this codebase to train/val your own models, please follow the steps:
