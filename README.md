@@ -6,6 +6,7 @@ To address this issue, we propose a click attention algorithm that expands the i
 We also propose a discriminative affinity loss to reduce the attention coupling between positive and negative click regions to avoid an accuracy decrease caused by mutual interference between positive and negative clicks.
 Extensive experiments demonstrate that our approach is superior to existing methods and achieves cutting-edge performance. 
 ClickAttention is codebase for click-based interactive segmentation developped on [RITM codebase](https://github.com/SamsungLabs/ritm_interactive_segmentation) and [FocalClick](https://github.com/alibaba/ClickSEG). 
+<br/>
 
 ## Interactive Segmentation Demo
 
@@ -15,6 +16,7 @@ ClickAttention is codebase for click-based interactive segmentation developped o
 
 The GUI is based on TkInter library and its Python bindings. You can try our interactive demo with any of the provided models. 
 Our scripts automatically detect the architecture of the loaded model, just specify the path to the corresponding checkpoint.
+<br/>
 
 ## Results
 
@@ -33,9 +35,7 @@ The proposed algorithm achieved competitive performance when compared to the cur
 | Ours-B0S2          | 1.66    | 2.65     | 4.45   | 6.9    | 5.44   | 2.81      | 3.77   | 2.87      | 3.36   |
 | Ours-B3S2          | **1.46**    | 1.95     | **3.26**   | **5.23**   | **4.72**   | **2.17**      | **2.89**   | **2.05**      | **2.37**   |
 
-
-
-
+<br/>
 
 ## User Guidelines
 To use this codebase to train/val your own models, please follow the steps:
@@ -62,14 +62,11 @@ apt install ffmpeg libsm6 libxext6 -y
 
 
 <br/>
-<br/>
-
 
 ## License
 
 The code is released under the MIT License. It is a short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source. 
 
-<br/>
 <br/>
 
 ## Acknowledgement
@@ -78,7 +75,6 @@ The core framework of this codebase follows: https://github.com/saic-vul/ritm_in
 
 We thank those authors for their great works.
 
-<br/>
 <br/>
 
 ## Citation
