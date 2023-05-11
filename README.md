@@ -1,5 +1,9 @@
 # ClickAttention: Click Region Similarity Guided Interactive Segmentation
 ## Introduction 
+The pipeline of the proposed algorithm.
+<p align="center">
+  <img src="./assets/img/framework.png" alt="drawing" width="80%"/>
+</p>
 Interactive segmentation algorithms based on click points have garnered significant attention from researchers in recent years.
 However, existing studies typically use sparse click maps as model inputs to segment specific target objects, which primarily affect local regions and have limited abilities to focus on the whole target object, leading to increased times of clicks.
 To address this issue, we propose a click attention algorithm that expands the influence range of positive clicks based on the similarity between positively-clicked regions and the whole input. 
@@ -10,15 +14,15 @@ ClickAttention is codebase for click-based interactive segmentation developped o
 
 ## Interactive Segmentation Demo
 
-
+The process of interactive segmentation is shown in the following diagram:
 <p align="center">
   <img src="./assets/img/teaser.gif" alt="drawing" width="50%"/>
 </p>
 
+We use the graphical user interface (GUI) provided by [RITM codebase](https://github.com/SamsungLabs/ritm_interactive_segmentation) to deploy the interactive segmentation algorithm.
 <p align="center">
   <img src="./assets/img/demo_gui.jpg" alt="drawing" width="99%"/>
 </p>
-
 
 The GUI is based on TkInter library and its Python bindings. You can try our interactive demo with any of the provided models. 
 Our scripts automatically detect the architecture of the loaded model, just specify the path to the corresponding checkpoint.
@@ -71,22 +75,15 @@ apt install ffmpeg libsm6 libxext6 -y
 
 3. Train or validate the model following: [Train_Val_Guidance.md](assets/documents/Train_Val_Guidance.md)
 
-
-<br/>
-
 ## License
 
 The code is released under the MIT License. It is a short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source. 
-
-<br/>
 
 ## Acknowledgement
 The core framework of this codebase follows: https://github.com/saic-vul/ritm_interactive_segmentation and https://github.com/alibaba/ClickSEG
 
 
 We thank those authors for their great works.
-
-<br/>
 
 ## Citation
 
@@ -95,5 +92,4 @@ TODO:
 
 ```
 
-
-## <mark style="background: #FF5582A6;">More details will be updated soon...</mark>
+## <mark style="background: #FF5582A6;">More key components and codes will be released soon...</mark>
