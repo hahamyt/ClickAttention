@@ -10,9 +10,15 @@ ClickAttention is codebase for click-based interactive segmentation developped o
 
 ## Interactive Segmentation Demo
 
+
+<p align="center">
+  <img src="./assets/img/teaser.gif" alt="drawing" width="50%"/>
+</p>
+
 <p align="center">
   <img src="./assets/img/demo_gui.jpg" alt="drawing" width="99%"/>
 </p>
+
 
 The GUI is based on TkInter library and its Python bindings. You can try our interactive demo with any of the provided models. 
 Our scripts automatically detect the architecture of the loaded model, just specify the path to the corresponding checkpoint.
@@ -35,6 +41,11 @@ The proposed algorithm achieved competitive performance when compared to the cur
 | Ours-B0S2          | 1.66    | 2.65     | 4.45   | 6.9    | 5.44   | 2.81      | 3.77   | 2.87      | 3.36   |
 | Ours-B3S2          | **1.46**    | 1.95     | **3.26**   | **5.23**   | **4.72**   | **2.17**      | **2.89**   | **2.05**      | **2.37**   |
 
+<br/>
+Average results on 8 different benchmarks. 
+<p align="center">
+  <img src="./assets/img/click_analysis.png" alt="drawing" width="50%"/>
+</p>
 <br/>
 
 ## User Guidelines
