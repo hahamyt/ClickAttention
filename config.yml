@@ -1,0 +1,47 @@
+INTERACTIVE_MODELS_PATH: "./experiments/iter_mask/cocolvis_hrnet18s/000_first-try/checkpoints/"
+EXPS_PATH: "./experiments"
+
+
+# Evaluation datasets
+GRABCUT_PATH: "/home/x/datasets/GrabCut"
+BERKELEY_PATH: "/home/x/datasets/Berkeley"
+DAVIS_PATH:  "/home/x/datasets/DAVIS"
+COCO_MVAL_PATH: "/home/x/datasets/COCO_MVal"
+PASCALVOC_PATH: "/home/x/datasets/VOCdevkit/VOC2012"
+#DAVIS585_PATH: "/huangrui_group_2080ti/datasets/DAVIS585/data"
+DAVIS585_PATH: "/home/x/datasets/DAVIS585/data"
+DAVIS585_vis_PATH: "/home/x/datasets/DAVIS585_vis/data"
+#DAVIS585_PATH: "/dingning_group_2080ti/wax/datasets/DAVIS585/data"
+LVIS_val_PATH: "/home/x/datasets/COCO_LVIS/val"
+
+# Train datasets
+SBD_PATH:  "/home/x/datasets/SBD_benchmark_RELEASE/dataset"
+COCO_PATH: "/home/xizhi.cx/data/dataset/COCO"
+LVIS_PATH: "/home/admin/workspace/project/data/datasets/COCO_LVIS"
+#LVIS_v1_PATH: "/home/x/datasets/COCO_LVIS"
+LVIS_v1_PATH: "/home/x/tmpdata/COCO_LVIS"
+#LVIS_v1_PATH: "/chenyongquan_group_2080ti/Dataset/COCO_LVIS"
+#LVIS_v1_PATH: "/group_2080ti/Dataset/COCO_LVIS"
+OPENIMAGES_PATH: "/home/xizhi.cx/data/dataset/OpenImage"
+ADE20K_PATH: "/home/admin/workspace/project/data/datasets/ADE20K"
+
+# Extra options for training
+THINOBJECT_PATH: "/home/admin/workspace/project/data/datasets/ThinObject/ThinObject5K"
+MSRA10K_PATH: "/home/admin/workspace/project/data/datasets/Saliency/MSRA10K_Imgs_GT/Imgs"
+DUT_TR_PATH: "/home/admin/workspace/project/data/datasets/Saliency/DUTS-TR/DUTS-TR-Image"
+DUT_TE_PATH: "/home/admin/workspace/project/data/datasets/Saliency/DUTS-TE/DUTS-TE-Image"
+YTBVOS_PATH: "/home/admin/workspace/project/data/datasets/YTBVOS"
+HFLICKER_PATH: "/home/admin/workspace/project/data/datasets/HFlickr"
+
+
+# You can download the weights for HRNet from the repository:
+# https://github.com/HRNet/HRNet-Image-Classification
+IMAGENET_PRETRAINED_MODELS:
+  SEGFORMER_B0: "./ckpts/Segformer/mit_b0.pth"
+#  SEGFORMER_B0: "./ckpts/mit_b0.pth"
+  SEGFORMER_B1: "/home/admin/workspace/project/data/weights/Segformer/mit_b1.pth"
+#  SEGFORMER_B3: "/home/x/workspace/xx/click-seg/ckpts/Segformer/mit_b3.pth"
+#  SEGFORMER_B3: "/huangrui_group_2080ti/wax/click-seg/ckpts/Segformer/mit_b3.pth"
+#  SEGFORMER_B3: "/dingning_group_2080ti/wax/workspace/click-seg/ckpts/Segformer/mit_b3.pth"
+  SEGFORMER_B3: "./ckpts/Segformer/mit_b3.pth"
+  CL_VIT_HUGE: "./ckpts/cocolvis_icl_vit_huge.pth"
