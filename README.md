@@ -9,7 +9,7 @@ Code. datasets and pretrained models are released🚀🚀.
 ## Introduction 
 The pipeline of the proposed algorithm.
 <p align="center">
-  <img src="./assets/img/framework.png" alt="drawing" width="80%"/>
+  <img src="./assets/img/framework_new.png" alt="drawing" width="80%"/>
 </p>
 Interactive segmentation algorithms based on click points have garnered significant attention from researchers in recent years.
 However, existing studies typically use sparse click maps as model inputs to segment specific target objects, which primarily affect local regions and have limited abilities to focus on the whole target object, leading to increased times of clicks.
