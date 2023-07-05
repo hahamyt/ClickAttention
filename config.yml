@@ -17,7 +17,7 @@ SBD_PATH:  "/root/datasets/SBD_benchmark_RELEASE/dataset"
 LVIS_PATH: "/home/admin/workspace/project/data/datasets/COCO_LVIS"
 #LVIS_v1_PATH: "/root/datasets/COCO_LVIS"
 LVIS_v1_PATH: "/root/tmpdata/COCO_LVIS"
-OPENIMAGES_PATH: "/home/xizhi.cx/data/dataset/OpenImage"
+OPENIMAGES_PATH: "/home/12312.123/data/dataset/OpenImage"
 ADE20K_PATH: "/home/admin/workspace/project/data/datasets/ADE20K"
 
 # Extra options for training
