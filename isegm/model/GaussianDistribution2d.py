@@ -206,7 +206,7 @@ class GaussianDistribution2d(nn.Module):
 
         # var = self.mlp(points)
 
-        if phase is 'pos':
+        if phase == 'pos':
             var = vars[:, :num_points] + self.var_bias
             # var = self.mlp(points)
         else:

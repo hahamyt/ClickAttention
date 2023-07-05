@@ -1,9 +1,7 @@
-from .cdnet import DiffisionPredictor
 from .baseline import BaselinePredictor
 from .focalclick import FocalPredictor
 from .focalclick_draw import FocalPredictorDraw
 from .ours_predictor import NoRefinePredictor
-from .cascade_predictor import  CascadePredictor
 from .ours_predictor_Draw import NoRefinePredictorDraw
 from .brs import InputBRSPredictor, FeatureBRSPredictor, HRNetFeatureBRSPredictor
 from .brs_functors import InputOptimizer, ScaleBiasOptimizer
