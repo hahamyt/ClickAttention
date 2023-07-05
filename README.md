@@ -4,7 +4,7 @@
 
 ***11/May/2023***
 
-Code. datasets and pretrained models are released🚀🚀.
+Code, datasets, and pretrained models are released🚀🚀.
 
 ## Introduction 
 The pipeline of the proposed algorithm.
