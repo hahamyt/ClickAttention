@@ -1,4 +1,4 @@
-## Ablation experiment on whole test set
+## Ablation experiment on the whole test set
 
 
 |           Method           | GrabCut | Berkeley |  SBD   |        | DAVIS  | COCO\_MVal |        | PascalVOC |        |
@@ -18,3 +18,5 @@
 |    Ours-B3-S2-baseline    |    |       |    |     |     |         |     |        |       |
 |    Ours-B3-S2+CA    |    |       |    |     |     |         |     |        |       |
 |    Ours-B3-S2+CA+DAA    |  1.46   |   1.95   |  3.26  |  5.23  |  4.72  |    2.17    |  2.89  |   2.05    |  2.37  |
+
+> Due to time limitations, some weights were re-trained in a short time, and as a result, some results may have subtle differences in the manuscript. But the trend is the same.
