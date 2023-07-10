@@ -49,7 +49,10 @@ The proposed algorithm achieved competitive performance when compared to the cur
 | FocalClick-B0S2   | 1.9     | 2.92     | 5.14   | 7.8    | 6.47   | 3.23      | 4.37   | 3.55      | 4.24   |
 | FocalClick-B3S2   | 1.68    | 1.71     | 3.73   | 5.92   | 5.59   | 2.45      | 3.33   | 2.53      | 2.97   |
 | Ours-B0S2          | 1.66    | 2.65     | 4.45   | 6.9    | 5.44   | 2.81      | 3.77   | 2.87      | 3.36   |
-| Ours-B3S2          | **1.46**    | 1.95     | **3.26**   | **5.23**   | **4.72**   | **2.17**      | **2.89**   | **2.05**      | **2.37**   |
+| Ours-B3S2$^*$          | 1.46    | 1.95     | 3.26   | 5.23   | 4.72   | 2.17      | 2.89   | 2.05      | 2.37   |
+| Ours-B3S2$^\star$          | **1.48**    | 1.89     | **3.18**   | **5.17**   | **4.67**   | **2.05**      | **2.83**   | **1.96**      | **2.26**   |
+
+> Note: $^*$ denotes the CFR style evaluation, $^\star$ denotes the RITM style evaluation.
 
 <br/>
 Average results on 8 different benchmarks. 
