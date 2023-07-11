@@ -15,8 +15,8 @@
 |     Ours-B0-S2-baseline    |  2.42   |   4.29   |  6.55  |  9.39  |  10.2  |    4.25    |  5.73  |   4.41    |  5.31  |
 |        Ours-B0-S2+CA       |  1.60   |   2.73   |  4.77  |  7.32  |  5.65  |    2.74    |  4.01  |   3.01    |  3.52  |
 |      Ours-B0-S2+CA+DAA     |  1.66   |   2.65   |  4.45  |  6.90  |  5.44  |    2.81    |  3.77  |   2.87    |  3.36  |
-|    Ours-B3-S2-baseline    |    |       |    |     |     |         |     |        |       |
-|    Ours-B3-S2+CA    |  1.38  |    1.93   |  3.38  |  5,42   |  4.93   |    2.13     |   2.99  |    1.99    |   2.41    |
+|    Ours-B3-S2-baseline    |  1.48  |   2.10    |   4.54 |   6.14  |   6.02  |     3.06    |  4.50   |    3.29    |   4.10    |
+|    Ours-B3-S2+CA    |  1.38  |    1.93   |  3.38  |  5.42   |  4.93   |    2.13     |   2.99  |    1.99    |   2.41    |
 |    Ours-B3-S2+CA+DAA    |  1.46   |   1.95   |  3.26  |  5.23  |  4.72  |    2.17    |  2.89  |   2.05    |  2.37  |
 
 > Due to time limitations, some weights were re-trained in a short time, and as a result, some results may have subtle differences in the manuscript. But the trend is the same.
